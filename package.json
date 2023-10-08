@@ -1,0 +1,26 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "NodeJS CLI App",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "note": "./index.js"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "nodejs",
+    "cli"
+  ],
+  "author": "Ruhan Khandakar",
+  "license": "ISC",
+  "dependencies": {
+    "open": "9.1.0",
+    "yargs": "17.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
